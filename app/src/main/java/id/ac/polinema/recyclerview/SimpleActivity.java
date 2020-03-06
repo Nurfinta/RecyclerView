@@ -24,6 +24,8 @@ public class SimpleActivity extends AppCompatActivity {
 		teams.add("Manchester City");
 		teams.add("Leicester City");
 		teams.add("Chelsea");
+		teams.add("Inter Milan");
+		teams.add("Arsenal");
 
 		SimpleAdapter adapter = new SimpleAdapter(teams);
 		teamsView.setAdapter(adapter);
